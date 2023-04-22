@@ -7,7 +7,9 @@
 
 /**
  * struct print - struct for printer functions
- * pointer to a printer functions
+ * @type_arg: identifier
+ * @f: pointer to a printer functions
+ *
  * Description: struct that stores pointers to a
  * printer functions.
  */
@@ -37,4 +39,4 @@ char *fill_binary_array(char *binary, long int int_in, int isneg, int limit);
 char *fill_oct_array(char *bnr, char *oct);
 char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
 
-#endi
+#endif
